@@ -3,7 +3,8 @@
 An interactive Power BI dashboard that analyses sales revenue and quantity across markets, customers and products from **2017 to 2020**, built on a star-schema data model with DAX measures for currency conversion.
 
 ![Dashboard Preview](screenshots/dashboard.png)
-<!-- Add a screenshot of your dashboard at screenshots/dashboard.png -->
+<img width="904" height="507" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/301ab127-7298-43b2-ab18-55d4a425452a" />
+
 
 ---
 
@@ -59,7 +60,7 @@ Measures are stored in the `BaseMeasure` table:
 - **Sales Qty**: total quantity sold
 
 ```dax
--- Paste your actual DAX here so recruiters can see your work, for example:
+
 Revenue = 
 SUMX(
     transactions,
@@ -70,7 +71,7 @@ SUMX(
 
 Sales Qty = SUM(transactions[sales_qty])
 ```
-<!-- Replace the code above with the exact DAX you used. -->
+
 
 ---
 
@@ -95,13 +96,10 @@ While working with the data, I noticed and handled these issues:
 - A small number of transactions recorded in USD, mixed with INR
 - Non-Indian market entries (New York, Paris) and a duplicate market name (Bhopal under two codes)
 
-<!-- Edit this list to match what you actually did, e.g. "removed", "filtered out" or "kept". -->
-
 ---
 
 ## Key Insights
 
-<!-- Fill these in from your dashboard. Use real numbers. Examples of the format: -->
 
 1. **Top market:** [Market name] generates [X]% of total revenue.
 2. **Top customer:** [Customer name] is the largest contributor.
